@@ -1,0 +1,71 @@
+﻿Finacial Ratio,Description
+bm,Book to Market Ratio
+debt_assets,Total Debt/Total Assets
+accrual,Accruals/Average Assets
+GProf,Gross Profit/Total Assets
+equity_invcap,Common Equity/Invested Capital
+debt_invcap,Long-term Debt/Invested Capital
+totdebt_invcap,Total Debt/Invested Capital
+debt_at,Total Debt/Total Assets
+invt_act,Inventory/Current Assets
+ptb,Price/Book
+ps,Price/Sales
+roa,Return on Assets
+dltt_be,Long-term Debt/Book Equity
+PEG_trailing,Trailing P/E to Growth (PEG) ratio
+aftret_eq,After-tax Return on Average Common Equity
+rect_act,Receivables/Current Assets
+cash_lt,Cash Balance/Total Liabilities
+at_turn,Asset Turnover
+gpm,Gross Profit Margin
+lt_debt,Long-term Debt/Total Liabilities
+pe_op_dil,"Price/Operating Earnings (Diluted, Excl. EI)"
+PEG_1yrforward,Forward P/E to 1-year Growth (PEG) ratio
+sale_equity,Sales/Stockholders Equity
+aftret_equity,After-tax Return on Total Stockholders Equity
+sale_invcap,Sales/Invested Capital
+staff_sale,Labor Expenses/Sales
+cash_debt,Cash Flow/Total Debt
+adv_sale,Avertising Expenses/Sales
+dpr,Dividend Payout Ratio
+rect_turn,Receivables Turnover
+aftret_invcapx,After-tax Return on Invested Capital
+curr_debt,Current Liabilities/Total Liabilities
+pretret_noa,Pre-tax return on Net Operating Assets
+de_ratio,Total Debt/Equity
+CAPEI,Shillers Cyclically Adjusted P/E Ratio
+capital_ratio,Capitalization Ratio
+pe_op_basic,"Price/Operating Earnings (Basic, Excl. EI)"
+inv_turn,Inventory Turnover
+int_debt,Interest/Average Long-term Debt
+opmbd,Operating Profit Margin Before Depreciation
+pe_inc,"P/E (Diluted, Incl. EI)"
+pretret_earnat,Pre-tax Return on Total Earning Assets
+opmad,Operating Profit Margin After Depreciation
+roce,Return on Capital Employed
+short_debt,Short-Term Debt/Total Debt
+lt_ppent,Total Liabilities/Total Tangible Assets
+curr_ratio,Current Ratio
+ocf_lct,Operating CF/Current Liabilities
+efftax,Effective Tax Rate
+sale_nwc,Sales/Working Capital
+rd_sale,Research and Development/Sales
+cash_conversion,Cash Conversion Cycle (Days)
+pe_exi,"P/E (Diluted, Excl. EI)"
+debt_capital,Total Debt/Capital
+fcf_ocf,Free Cash Flow/Operating Cash Flow
+profit_lct,Profit Before Depreciation/Current Liabilities
+pay_turn,Payables Turnover
+cash_ratio,Cash Ratio
+int_totdebt,Interest/Average Total Debt
+intcov,After-tax Interest Coverage
+quick_ratio,Quick Ratio (Acid Test)
+ptpm,Pre-tax Profit Margin
+npm,Net Profit Margin
+cfm,Cash Flow Margin
+PEG_ltgforward,Forward P/E to Long-term Growth (PEG) ratio
+roe,Return on Equity
+debt_ebitda,Total Debt/EBITDA
+evm,Enterprise Value Multiple
+pcf,Price/Cash flow
+intcov_ratio,Interest Coverage Ratio
