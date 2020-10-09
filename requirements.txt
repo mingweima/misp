@@ -9,6 +9,7 @@ seaborn
 mysql-connector-python>=8.0.0
 PyYAML>=5.0.0
 sklearn
-
+plotly
+statsmodels
 
 
