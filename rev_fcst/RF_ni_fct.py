@@ -36,8 +36,6 @@ print('mdf2 loaded!!!')
 
 mdf2 = mdf2.replace([np.inf, -np.inf], np.nan)
 
-mdf2 = mdf2.dropna(thresh=int(mdf2.shape[1]/2))
-
 mdf2 = mdf2.fillna(0)
 
 # train val split: 1975-2005 train, 2010-2015 test
