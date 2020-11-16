@@ -2762,3 +2762,1370 @@ tornado.websocket.WebSocketClosedError
       File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 487, in _kill_kernel
         raise RuntimeError("Cannot kill kernel. No kernel is running!")
     RuntimeError: Cannot kill kernel. No kernel is running!
+[I 15:24:51.631 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 15:24:51.631 NotebookApp] Serving notebooks from local directory: /Users/mmw/Documents/GitHub/misp
+[I 15:24:51.631 NotebookApp] Jupyter Notebook 6.1.3 is running at:
+[I 15:24:51.631 NotebookApp] http://localhost:8888/
+[I 15:24:51.631 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 15:25:06.325 NotebookApp] delete /forecast/PLS-12345.ipynb
+[W 15:25:06.365 NotebookApp] delete /forecast/RF-345.ipynb
+[I 15:25:10.144 NotebookApp] Uploading file to /forecast/pls update.ipynb
+[W 15:25:10.146 NotebookApp] Notebook forecast/pls update.ipynb is not trusted
+[W 15:25:38.272 NotebookApp] Notebook forecast/pls update.ipynb is not trusted
+[I 15:25:38.499 NotebookApp] Kernel started: a78e5d8b-a066-4739-811c-a7e863539b59, name: python3
+[I 15:27:38.481 NotebookApp] Saving file at /forecast/pls update.ipynb
+[W 15:27:38.482 NotebookApp] Notebook forecast/pls update.ipynb is not trusted
+[I 15:35:38.475 NotebookApp] Saving file at /forecast/pls update.ipynb
+[W 15:35:38.475 NotebookApp] Notebook forecast/pls update.ipynb is not trusted
+[I 15:35:46.522 NotebookApp] Kernel started: 167dc22d-0a2a-44e3-860e-9495c2000407, name: python3
+[I 15:35:48.782 NotebookApp] Starting buffering for 167dc22d-0a2a-44e3-860e-9495c2000407:10d4d13b005b44be82d54c12d96b3ee8
+[I 15:35:56.946 NotebookApp] Kernel started: 4e2da14f-7e29-4db2-849c-8cbb6f2ef7a8, name: python3
+[I 15:37:37.366 NotebookApp] Kernel interrupted: a78e5d8b-a066-4739-811c-a7e863539b59
+[I 15:37:38.474 NotebookApp] Saving file at /forecast/pls update.ipynb
+[W 15:37:38.474 NotebookApp] Notebook forecast/pls update.ipynb is not trusted
+[IPKernelApp] ERROR | Exception in comm_msg for 3704c8e991fc489b967bb7aa9b1dbdd2
+Traceback (most recent call last):
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/manager.py", line 111, in comm_msg
+    comm.handle_msg(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/comm.py", line 161, in handle_msg
+    self._msg_callback(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_nbagg.py", line 219, in on_message
+    self.manager.handle_json(message)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 452, in handle_json
+    self.canvas.handle_event(content)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 236, in handle_event
+    return handler(event)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 257, in _handle_mouse
+    y = self.get_renderer().height - y
+TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
+[IPKernelApp] ERROR | Exception in comm_msg for 3704c8e991fc489b967bb7aa9b1dbdd2
+Traceback (most recent call last):
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/manager.py", line 111, in comm_msg
+    comm.handle_msg(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/comm.py", line 161, in handle_msg
+    self._msg_callback(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_nbagg.py", line 219, in on_message
+    self.manager.handle_json(message)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 452, in handle_json
+    self.canvas.handle_event(content)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 236, in handle_event
+    return handler(event)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 257, in _handle_mouse
+    y = self.get_renderer().height - y
+TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
+[IPKernelApp] ERROR | Exception in comm_msg for 3704c8e991fc489b967bb7aa9b1dbdd2
+Traceback (most recent call last):
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/manager.py", line 111, in comm_msg
+    comm.handle_msg(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/comm.py", line 161, in handle_msg
+    self._msg_callback(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_nbagg.py", line 219, in on_message
+    self.manager.handle_json(message)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 452, in handle_json
+    self.canvas.handle_event(content)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 236, in handle_event
+    return handler(event)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 257, in _handle_mouse
+    y = self.get_renderer().height - y
+TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
+[IPKernelApp] ERROR | Exception in comm_msg for 3704c8e991fc489b967bb7aa9b1dbdd2
+Traceback (most recent call last):
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/manager.py", line 111, in comm_msg
+    comm.handle_msg(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/comm.py", line 161, in handle_msg
+    self._msg_callback(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_nbagg.py", line 219, in on_message
+    self.manager.handle_json(message)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 452, in handle_json
+    self.canvas.handle_event(content)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 236, in handle_event
+    return handler(event)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 257, in _handle_mouse
+    y = self.get_renderer().height - y
+TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
+[IPKernelApp] ERROR | Exception in comm_msg for 3704c8e991fc489b967bb7aa9b1dbdd2
+Traceback (most recent call last):
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/manager.py", line 111, in comm_msg
+    comm.handle_msg(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/comm.py", line 161, in handle_msg
+    self._msg_callback(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_nbagg.py", line 219, in on_message
+    self.manager.handle_json(message)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 452, in handle_json
+    self.canvas.handle_event(content)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 236, in handle_event
+    return handler(event)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 257, in _handle_mouse
+    y = self.get_renderer().height - y
+TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
+[IPKernelApp] ERROR | Exception in comm_msg for 3704c8e991fc489b967bb7aa9b1dbdd2
+Traceback (most recent call last):
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/manager.py", line 111, in comm_msg
+    comm.handle_msg(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/comm.py", line 161, in handle_msg
+    self._msg_callback(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_nbagg.py", line 219, in on_message
+    self.manager.handle_json(message)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 452, in handle_json
+    self.canvas.handle_event(content)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 236, in handle_event
+    return handler(event)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 257, in _handle_mouse
+    y = self.get_renderer().height - y
+TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
+[IPKernelApp] ERROR | Exception in comm_msg for 3704c8e991fc489b967bb7aa9b1dbdd2
+Traceback (most recent call last):
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/manager.py", line 111, in comm_msg
+    comm.handle_msg(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/comm.py", line 161, in handle_msg
+    self._msg_callback(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_nbagg.py", line 219, in on_message
+    self.manager.handle_json(message)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 452, in handle_json
+    self.canvas.handle_event(content)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 236, in handle_event
+    return handler(event)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 257, in _handle_mouse
+    y = self.get_renderer().height - y
+TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
+[IPKernelApp] ERROR | Exception in comm_msg for 3704c8e991fc489b967bb7aa9b1dbdd2
+Traceback (most recent call last):
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/manager.py", line 111, in comm_msg
+    comm.handle_msg(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/comm.py", line 161, in handle_msg
+    self._msg_callback(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_nbagg.py", line 219, in on_message
+    self.manager.handle_json(message)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 452, in handle_json
+    self.canvas.handle_event(content)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 236, in handle_event
+    return handler(event)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 257, in _handle_mouse
+    y = self.get_renderer().height - y
+TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
+[IPKernelApp] WARNING | No such comm: 3704c8e991fc489b967bb7aa9b1dbdd2
+[IPKernelApp] WARNING | No such comm: 3704c8e991fc489b967bb7aa9b1dbdd2
+[IPKernelApp] WARNING | No such comm: 3704c8e991fc489b967bb7aa9b1dbdd2
+[IPKernelApp] WARNING | No such comm: 3704c8e991fc489b967bb7aa9b1dbdd2
+[IPKernelApp] WARNING | No such comm: eaa0754758d24f6f9f771eedeffca4bf
+[IPKernelApp] WARNING | No such comm: eaa0754758d24f6f9f771eedeffca4bf
+[IPKernelApp] WARNING | No such comm: eaa0754758d24f6f9f771eedeffca4bf
+[IPKernelApp] WARNING | No such comm: eaa0754758d24f6f9f771eedeffca4bf
+[IPKernelApp] WARNING | No such comm: 8ac04422326940558495acf45988f868
+[IPKernelApp] WARNING | No such comm: 8ac04422326940558495acf45988f868
+[IPKernelApp] WARNING | No such comm: 8ac04422326940558495acf45988f868
+[IPKernelApp] WARNING | No such comm: 8ac04422326940558495acf45988f868
+[IPKernelApp] WARNING | No such comm: 8ac04422326940558495acf45988f868
+[IPKernelApp] WARNING | No such comm: 5f432f5a7d87428aba187e7e9bf86120
+[IPKernelApp] WARNING | No such comm: 5f432f5a7d87428aba187e7e9bf86120
+[IPKernelApp] WARNING | No such comm: 5f432f5a7d87428aba187e7e9bf86120
+[IPKernelApp] WARNING | No such comm: 5f432f5a7d87428aba187e7e9bf86120
+[IPKernelApp] WARNING | No such comm: 5f432f5a7d87428aba187e7e9bf86120
+[IPKernelApp] WARNING | No such comm: 5f432f5a7d87428aba187e7e9bf86120
+[IPKernelApp] WARNING | No such comm: 6655c9d7e3264610817032abbe517e1c
+[IPKernelApp] WARNING | No such comm: 6655c9d7e3264610817032abbe517e1c
+[IPKernelApp] WARNING | No such comm: 6655c9d7e3264610817032abbe517e1c
+[IPKernelApp] WARNING | No such comm: 6655c9d7e3264610817032abbe517e1c
+[IPKernelApp] WARNING | No such comm: 6655c9d7e3264610817032abbe517e1c
+[I 15:39:38.728 NotebookApp] Saving file at /forecast/pls update.ipynb
+[W 15:39:38.728 NotebookApp] Notebook forecast/pls update.ipynb is not trusted
+[I 15:44:03.471 NotebookApp] Saving file at /analysis_1/2-1-2-visual_valuation_misp.ipynb
+[I 15:46:03.457 NotebookApp] Saving file at /analysis_1/2-1-2-visual_valuation_misp.ipynb
+[I 15:48:03.599 NotebookApp] Saving file at /analysis_1/2-1-2-visual_valuation_misp.ipynb
+[I 15:50:03.473 NotebookApp] Saving file at /analysis_1/2-1-2-visual_valuation_misp.ipynb
+[I 15:52:03.482 NotebookApp] Saving file at /analysis_1/2-1-2-visual_valuation_misp.ipynb
+[I 15:54:03.484 NotebookApp] Saving file at /analysis_1/2-1-2-visual_valuation_misp.ipynb
+[I 15:56:03.458 NotebookApp] Saving file at /analysis_1/2-1-2-visual_valuation_misp.ipynb
+[I 15:58:03.463 NotebookApp] Saving file at /analysis_1/2-1-2-visual_valuation_misp.ipynb
+[I 16:00:01.018 NotebookApp] Saving file at /analysis_1/2-1-2-visual_valuation_misp.ipynb
+[I 16:00:04.632 NotebookApp] Saving file at /analysis_1/2-1-2-visual_valuation_misp.ipynb
+[I 16:00:23.921 NotebookApp] Saving file at /analysis_1/2-1-2-visual_valuation_misp.ipynb
+[I 16:00:24.777 NotebookApp] Saving file at /analysis_1/2-1-2-visual_valuation_misp.ipynb
+[I 16:00:26.209 NotebookApp] Starting buffering for 4e2da14f-7e29-4db2-849c-8cbb6f2ef7a8:73aff6da781a4436b4b3cd94fe61ae91
+[I 16:00:27.104 NotebookApp] Starting buffering for a78e5d8b-a066-4739-811c-a7e863539b59:6732e33eb20e4bb78a1bb85c2fac1241
+[I 16:00:29.482 NotebookApp] Kernel shutdown: 4e2da14f-7e29-4db2-849c-8cbb6f2ef7a8
+[I 18:29:14.521 NotebookApp] Kernel started: 5d1c97f6-1d2e-4a20-952e-22cdb67e9bbb, name: python3
+[I 18:31:14.509 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[I 18:31:58.244 NotebookApp] Kernel started: d01b3c3c-1a73-4171-9061-d9b800ee1954, name: python3
+[I 18:32:03.301 NotebookApp] Starting buffering for d01b3c3c-1a73-4171-9061-d9b800ee1954:23b9a0bc8164452e85df24cbea2f2e60
+[I 18:33:14.516 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[I 18:35:14.529 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[I 18:36:21.952 NotebookApp] Kernel started: 06531a35-1a1d-4bf5-96bc-5a5cf6dfc769, name: python3
+[I 18:36:28.929 NotebookApp] Starting buffering for 06531a35-1a1d-4bf5-96bc-5a5cf6dfc769:2d70d858f6954eb8867087c16adc74c1
+[I 18:37:14.545 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 8196248823024bfa9985c99e4329c52d
+[IPKernelApp] WARNING | No such comm: 6fbc151b3c4142bf964f6292809d0b6e
+[IPKernelApp] WARNING | No such comm: 6fbc151b3c4142bf964f6292809d0b6e
+[I 18:39:14.924 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: ece2ba9b490e4c8b852ea9bd2d501bea
+[IPKernelApp] WARNING | No such comm: dc37b7b6c7ff4583b9c9f2e3a41badb0
+[IPKernelApp] WARNING | No such comm: dc37b7b6c7ff4583b9c9f2e3a41badb0
+[IPKernelApp] WARNING | No such comm: dc37b7b6c7ff4583b9c9f2e3a41badb0
+[IPKernelApp] WARNING | No such comm: dc37b7b6c7ff4583b9c9f2e3a41badb0
+[IPKernelApp] WARNING | No such comm: dc37b7b6c7ff4583b9c9f2e3a41badb0
+[IPKernelApp] WARNING | No such comm: dc37b7b6c7ff4583b9c9f2e3a41badb0
+[IPKernelApp] WARNING | No such comm: dc37b7b6c7ff4583b9c9f2e3a41badb0
+[IPKernelApp] WARNING | No such comm: dc37b7b6c7ff4583b9c9f2e3a41badb0
+[I 18:41:14.542 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[IPKernelApp] WARNING | No such comm: 01b45a10367442da8dbed9c563f7002e
+[I 18:43:14.547 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[IPKernelApp] WARNING | No such comm: 8eaa8b239e49418eb030961578557910
+[IPKernelApp] WARNING | No such comm: 8eaa8b239e49418eb030961578557910
+[I 18:45:12.016 NotebookApp] Saving file at /analysis_1/2-3_horizon_effects.ipynb
+[I 18:45:14.546 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[I 18:47:14.548 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[I 18:51:14.540 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[I 18:53:14.559 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[I 18:54:30.149 NotebookApp] Starting buffering for 5d1c97f6-1d2e-4a20-952e-22cdb67e9bbb:4689104ecc8d4e6985b4f934846636b9
+[I 18:54:31.612 NotebookApp] Kernel restarted: 5d1c97f6-1d2e-4a20-952e-22cdb67e9bbb
+[I 18:54:31.626 NotebookApp] Restoring connection for 5d1c97f6-1d2e-4a20-952e-22cdb67e9bbb:4689104ecc8d4e6985b4f934846636b9
+[I 18:54:31.626 NotebookApp] Replaying 11 buffered messages
+[I 18:55:14.561 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[I 18:57:14.558 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[I 18:59:14.571 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[I 19:19:14.566 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: 845cb04d03ab43d899854643424b0f71
+[IPKernelApp] WARNING | No such comm: 845cb04d03ab43d899854643424b0f71
+[IPKernelApp] WARNING | No such comm: 845cb04d03ab43d899854643424b0f71
+[IPKernelApp] WARNING | No such comm: 845cb04d03ab43d899854643424b0f71
+[IPKernelApp] WARNING | No such comm: 845cb04d03ab43d899854643424b0f71
+[IPKernelApp] WARNING | No such comm: 845cb04d03ab43d899854643424b0f71
+[IPKernelApp] WARNING | No such comm: 845cb04d03ab43d899854643424b0f71
+[IPKernelApp] WARNING | No such comm: 845cb04d03ab43d899854643424b0f71
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[I 19:21:14.572 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[I 19:23:14.588 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[I 19:24:21.577 NotebookApp] Starting buffering for 5d1c97f6-1d2e-4a20-952e-22cdb67e9bbb:4689104ecc8d4e6985b4f934846636b9
+[I 19:24:22.508 NotebookApp] Kernel restarted: 5d1c97f6-1d2e-4a20-952e-22cdb67e9bbb
+[I 19:24:22.522 NotebookApp] Restoring connection for 5d1c97f6-1d2e-4a20-952e-22cdb67e9bbb:4689104ecc8d4e6985b4f934846636b9
+[I 19:24:22.523 NotebookApp] Replaying 11 buffered messages
+[I 19:25:14.604 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[IPKernelApp] WARNING | No such comm: f73d37d315de4607ac1ec655ff193a27
+[I 19:26:45.215 NotebookApp] Starting buffering for 5d1c97f6-1d2e-4a20-952e-22cdb67e9bbb:4689104ecc8d4e6985b4f934846636b9
+[I 19:26:45.741 NotebookApp] Kernel restarted: 5d1c97f6-1d2e-4a20-952e-22cdb67e9bbb
+[I 19:26:45.752 NotebookApp] Restoring connection for 5d1c97f6-1d2e-4a20-952e-22cdb67e9bbb:4689104ecc8d4e6985b4f934846636b9
+[I 19:26:45.752 NotebookApp] Replaying 7 buffered messages
+[I 19:27:15.181 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[I 19:29:14.599 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[I 19:33:14.589 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[I 19:34:17.255 NotebookApp] Starting buffering for 5d1c97f6-1d2e-4a20-952e-22cdb67e9bbb:4689104ecc8d4e6985b4f934846636b9
+[I 19:34:17.882 NotebookApp] Kernel restarted: 5d1c97f6-1d2e-4a20-952e-22cdb67e9bbb
+[I 19:34:17.897 NotebookApp] Restoring connection for 5d1c97f6-1d2e-4a20-952e-22cdb67e9bbb:4689104ecc8d4e6985b4f934846636b9
+[I 19:34:17.897 NotebookApp] Replaying 11 buffered messages
+[I 19:35:14.582 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[I 19:36:47.036 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[I 19:36:48.909 NotebookApp] Starting buffering for 5d1c97f6-1d2e-4a20-952e-22cdb67e9bbb:4689104ecc8d4e6985b4f934846636b9
+[I 19:36:50.214 NotebookApp] Starting buffering for 06531a35-1a1d-4bf5-96bc-5a5cf6dfc769:c16b8307db2143828689b3881b4e0b8d
+[I 19:36:54.078 NotebookApp] Kernel started: b2beb808-df2f-4637-bf77-3c073ee549c7, name: python3
+[I 19:38:54.965 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 19:40:54.079 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 19:42:54.088 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 19:44:54.093 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 19:56:54.122 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 19:57:46.214 NotebookApp] Kernel interrupted: b2beb808-df2f-4637-bf77-3c073ee549c7
+[I 19:58:54.115 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 20:00:54.122 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 20:02:15.976 NotebookApp] Kernel interrupted: b2beb808-df2f-4637-bf77-3c073ee549c7
+[I 20:02:54.127 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 20:04:50.294 NotebookApp] Kernel interrupted: b2beb808-df2f-4637-bf77-3c073ee549c7
+[I 20:04:54.118 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 20:05:21.988 NotebookApp] Kernel interrupted: b2beb808-df2f-4637-bf77-3c073ee549c7
+[I 20:06:54.232 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 20:10:54.242 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 22:44:41.668 NotebookApp] Starting buffering for 5d1c97f6-1d2e-4a20-952e-22cdb67e9bbb:aa073508fd7e41ab8e9bf1338961e0ce
+[I 22:44:42.201 NotebookApp] Kernel restarted: 5d1c97f6-1d2e-4a20-952e-22cdb67e9bbb
+[I 22:44:42.212 NotebookApp] Restoring connection for 5d1c97f6-1d2e-4a20-952e-22cdb67e9bbb:aa073508fd7e41ab8e9bf1338961e0ce
+[I 22:44:42.212 NotebookApp] Replaying 7 buffered messages
+[I 22:45:40.044 NotebookApp] Saving file at /analysis_1/2-2-1_size_growth_effect.ipynb
+[I 22:48:46.127 NotebookApp] Starting buffering for 5d1c97f6-1d2e-4a20-952e-22cdb67e9bbb:aa073508fd7e41ab8e9bf1338961e0ce
+[I 22:48:49.124 NotebookApp] Kernel shutdown: 5d1c97f6-1d2e-4a20-952e-22cdb67e9bbb
+[I 22:52:54.395 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 22:54:54.411 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 22:56:54.383 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 23:00:54.381 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 23:02:54.409 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 23:04:54.410 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 23:05:12.756 NotebookApp] Starting buffering for b2beb808-df2f-4637-bf77-3c073ee549c7:1dce695192ba40188577da0e086ed10e
+[I 23:05:15.039 NotebookApp] Kernel restarted: b2beb808-df2f-4637-bf77-3c073ee549c7
+[I 23:05:15.053 NotebookApp] Restoring connection for b2beb808-df2f-4637-bf77-3c073ee549c7:1dce695192ba40188577da0e086ed10e
+[I 23:05:15.053 NotebookApp] Replaying 11 buffered messages
+[I 23:06:54.289 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 23:08:54.280 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 23:10:54.288 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 23:12:54.309 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 23:14:54.309 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 23:16:15.278 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 23:16:17.938 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 23:16:18.881 NotebookApp] Starting buffering for b2beb808-df2f-4637-bf77-3c073ee549c7:1dce695192ba40188577da0e086ed10e
+[I 23:16:23.151 NotebookApp] Kernel shutdown: d01b3c3c-1a73-4171-9061-d9b800ee1954
+[I 23:18:13.281 NotebookApp] Starting buffering for 06531a35-1a1d-4bf5-96bc-5a5cf6dfc769:97a23970b3584b408ed9cb191b1226d0
+[I 23:18:13.708 NotebookApp] Kernel restarted: 06531a35-1a1d-4bf5-96bc-5a5cf6dfc769
+[I 23:18:13.718 NotebookApp] Restoring connection for 06531a35-1a1d-4bf5-96bc-5a5cf6dfc769:97a23970b3584b408ed9cb191b1226d0
+[I 23:18:13.718 NotebookApp] Replaying 3 buffered messages
+[I 23:18:27.129 NotebookApp] Saving file at /analysis_1/2-3_horizon_effects.ipynb
+[I 23:20:27.215 NotebookApp] Saving file at /analysis_1/2-3_horizon_effects.ipynb
+[I 23:22:27.218 NotebookApp] Saving file at /analysis_1/2-3_horizon_effects.ipynb
+[I 23:24:27.221 NotebookApp] Saving file at /analysis_1/2-3_horizon_effects.ipynb
+[I 23:26:27.233 NotebookApp] Saving file at /analysis_1/2-3_horizon_effects.ipynb
+[IPKernelApp] ERROR | Exception in comm_msg for 6797a461e306499581cfea76b3e2ea5f
+Traceback (most recent call last):
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/manager.py", line 111, in comm_msg
+    comm.handle_msg(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/comm.py", line 161, in handle_msg
+    self._msg_callback(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_nbagg.py", line 219, in on_message
+    self.manager.handle_json(message)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 452, in handle_json
+    self.canvas.handle_event(content)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 236, in handle_event
+    return handler(event)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 257, in _handle_mouse
+    y = self.get_renderer().height - y
+TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
+[IPKernelApp] ERROR | Exception in comm_msg for 6797a461e306499581cfea76b3e2ea5f
+Traceback (most recent call last):
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/manager.py", line 111, in comm_msg
+    comm.handle_msg(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/comm.py", line 161, in handle_msg
+    self._msg_callback(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_nbagg.py", line 219, in on_message
+    self.manager.handle_json(message)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 452, in handle_json
+    self.canvas.handle_event(content)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 236, in handle_event
+    return handler(event)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 257, in _handle_mouse
+    y = self.get_renderer().height - y
+TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
+[IPKernelApp] ERROR | Exception in comm_msg for 6797a461e306499581cfea76b3e2ea5f
+Traceback (most recent call last):
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/manager.py", line 111, in comm_msg
+    comm.handle_msg(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/comm.py", line 161, in handle_msg
+    self._msg_callback(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_nbagg.py", line 219, in on_message
+    self.manager.handle_json(message)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 452, in handle_json
+    self.canvas.handle_event(content)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 236, in handle_event
+    return handler(event)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 257, in _handle_mouse
+    y = self.get_renderer().height - y
+TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
+[I 23:28:27.251 NotebookApp] Saving file at /analysis_1/2-3_horizon_effects.ipynb
+[I 23:30:27.321 NotebookApp] Saving file at /analysis_1/2-3_horizon_effects.ipynb
+[I 23:32:27.243 NotebookApp] Saving file at /analysis_1/2-3_horizon_effects.ipynb
+[I 23:40:27.257 NotebookApp] Saving file at /analysis_1/2-3_horizon_effects.ipynb
+[I 23:40:30.540 NotebookApp] Kernel interrupted: 06531a35-1a1d-4bf5-96bc-5a5cf6dfc769
+[I 23:41:00.648 NotebookApp] Kernel interrupted: 06531a35-1a1d-4bf5-96bc-5a5cf6dfc769
+[I 23:42:27.286 NotebookApp] Saving file at /analysis_1/2-3_horizon_effects.ipynb
+[I 23:44:27.269 NotebookApp] Saving file at /analysis_1/2-3_horizon_effects.ipynb
+[I 23:48:27.266 NotebookApp] Saving file at /analysis_1/2-3_horizon_effects.ipynb
+[I 23:49:49.703 NotebookApp] Starting buffering for 06531a35-1a1d-4bf5-96bc-5a5cf6dfc769:97a23970b3584b408ed9cb191b1226d0
+[I 23:49:51.358 NotebookApp] Kernel restarted: 06531a35-1a1d-4bf5-96bc-5a5cf6dfc769
+[I 23:49:51.373 NotebookApp] Restoring connection for 06531a35-1a1d-4bf5-96bc-5a5cf6dfc769:97a23970b3584b408ed9cb191b1226d0
+[I 23:49:51.373 NotebookApp] Replaying 12 buffered messages
+[I 23:50:27.239 NotebookApp] Saving file at /analysis_1/2-3_horizon_effects.ipynb
+[I 23:52:27.239 NotebookApp] Saving file at /analysis_1/2-3_horizon_effects.ipynb
+[IPKernelApp] ERROR | Exception in comm_msg for 11e803d520fb4b198ec9fa4782673576
+Traceback (most recent call last):
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/manager.py", line 111, in comm_msg
+    comm.handle_msg(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/comm.py", line 161, in handle_msg
+    self._msg_callback(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_nbagg.py", line 219, in on_message
+    self.manager.handle_json(message)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 452, in handle_json
+    self.canvas.handle_event(content)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 236, in handle_event
+    return handler(event)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 257, in _handle_mouse
+    y = self.get_renderer().height - y
+TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
+[IPKernelApp] ERROR | Exception in comm_msg for 11e803d520fb4b198ec9fa4782673576
+Traceback (most recent call last):
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/manager.py", line 111, in comm_msg
+    comm.handle_msg(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/comm.py", line 161, in handle_msg
+    self._msg_callback(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_nbagg.py", line 219, in on_message
+    self.manager.handle_json(message)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 452, in handle_json
+    self.canvas.handle_event(content)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 236, in handle_event
+    return handler(event)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 257, in _handle_mouse
+    y = self.get_renderer().height - y
+TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
+[IPKernelApp] ERROR | Exception in comm_msg for 11e803d520fb4b198ec9fa4782673576
+Traceback (most recent call last):
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/manager.py", line 111, in comm_msg
+    comm.handle_msg(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/ipykernel/comm/comm.py", line 161, in handle_msg
+    self._msg_callback(msg)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_nbagg.py", line 219, in on_message
+    self.manager.handle_json(message)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 452, in handle_json
+    self.canvas.handle_event(content)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 236, in handle_event
+    return handler(event)
+  File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/matplotlib/backends/backend_webagg_core.py", line 257, in _handle_mouse
+    y = self.get_renderer().height - y
+TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'
+[I 23:54:27.356 NotebookApp] Saving file at /analysis_1/2-3_horizon_effects.ipynb
+[I 23:59:26.821 NotebookApp] Starting buffering for 06531a35-1a1d-4bf5-96bc-5a5cf6dfc769:97a23970b3584b408ed9cb191b1226d0
+[I 23:59:31.356 NotebookApp] Kernel shutdown: 06531a35-1a1d-4bf5-96bc-5a5cf6dfc769
+[I 23:59:49.247 NotebookApp] Kernel started: 5384aa91-a5c5-4016-b90c-ca5be4577970, name: python3
+[I 00:00:26.586 NotebookApp] Starting buffering for b2beb808-df2f-4637-bf77-3c073ee549c7:8a1855cfa56b4a1383725509cf4c228c
+[I 00:00:38.718 NotebookApp] Starting buffering for 5384aa91-a5c5-4016-b90c-ca5be4577970:48b23151262c4613b0a2678087260e1e
+[I 00:00:38.938 NotebookApp] Kernel restarted: 5384aa91-a5c5-4016-b90c-ca5be4577970
+[I 00:00:38.950 NotebookApp] Restoring connection for 5384aa91-a5c5-4016-b90c-ca5be4577970:48b23151262c4613b0a2678087260e1e
+[I 00:00:38.950 NotebookApp] Replaying 3 buffered messages
+[I 00:01:49.724 NotebookApp] Saving file at /analysis_1/2-3-1_misp_and_ret_for_company.ipynb
+[I 00:07:05.838 NotebookApp] Saving file at /analysis_1/2-3-1_misp_and_ret_for_company.ipynb
+[I 00:07:06.572 NotebookApp] Starting buffering for 5384aa91-a5c5-4016-b90c-ca5be4577970:48b23151262c4613b0a2678087260e1e
+[I 00:07:10.662 NotebookApp] Kernel shutdown: 5384aa91-a5c5-4016-b90c-ca5be4577970
+[I 00:09:19.505 NotebookApp] Kernel started: f6585491-8f5f-443b-8373-ea9e361ebef8, name: python3
+[I 00:10:35.696 NotebookApp] Starting buffering for f6585491-8f5f-443b-8373-ea9e361ebef8:34700723ae2548f4b00e491aafa21d9d
+[I 00:10:36.014 NotebookApp] Kernel restarted: f6585491-8f5f-443b-8373-ea9e361ebef8
+[I 00:10:36.030 NotebookApp] Restoring connection for f6585491-8f5f-443b-8373-ea9e361ebef8:34700723ae2548f4b00e491aafa21d9d
+[I 00:10:36.030 NotebookApp] Replaying 3 buffered messages
+[I 00:11:19.508 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios.ipynb
+[I 00:13:19.597 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios.ipynb
+[I 00:19:19.585 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios.ipynb
+[I 00:21:19.597 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios.ipynb
+[I 00:23:19.590 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios.ipynb
+[I 00:25:19.603 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios.ipynb
+[I 00:25:28.885 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios.ipynb
+[I 00:25:29.896 NotebookApp] Starting buffering for f6585491-8f5f-443b-8373-ea9e361ebef8:34700723ae2548f4b00e491aafa21d9d
+[I 00:28:19.090 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios.ipynb
+[I 00:30:23.251 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios.ipynb
+[I 00:32:19.106 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios.ipynb
+[I 00:34:19.091 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios.ipynb
+[I 00:36:09.442 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios.ipynb
+[I 00:36:10.571 NotebookApp] Starting buffering for f6585491-8f5f-443b-8373-ea9e361ebef8:e1167f92a5d7441a8eddbcf1c5026396
+[I 00:39:22.907 NotebookApp] Kernel started: 45a27fc0-c554-480c-b755-f37c1c9235a9, name: python3
+[W 00:39:22.927 NotebookApp] 404 GET /static/plotly.js?v=20201024152451 (::1) 9.40ms referer=http://localhost:8888/notebooks/analysis_1/2-4_ret_decomp.ipynb
+[I 00:41:19.937 NotebookApp] Kernel started: 32dec4cc-ccde-4add-b1dc-53e08b86a2e9, name: python3
+[I 00:41:25.690 NotebookApp] Starting buffering for 32dec4cc-ccde-4add-b1dc-53e08b86a2e9:e4e2e100bb8f40dbbd807a1f3b9ffc9a
+[I 00:41:57.021 NotebookApp] Kernel shutdown: b2beb808-df2f-4637-bf77-3c073ee549c7
+[I 00:41:57.848 NotebookApp] Kernel shutdown: f6585491-8f5f-443b-8373-ea9e361ebef8
+[I 00:43:30.258 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 00:47:22.921 NotebookApp] Saving file at /analysis_1/2-4_ret_decomp.ipynb
+[I 00:49:23.345 NotebookApp] Saving file at /analysis_1/2-4_ret_decomp.ipynb
+[I 00:49:30.359 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 00:51:22.932 NotebookApp] Saving file at /analysis_1/2-4_ret_decomp.ipynb
+[I 00:51:30.262 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 00:52:50.720 NotebookApp] Starting buffering for 45a27fc0-c554-480c-b755-f37c1c9235a9:12a6558c2d8f498196a827861c454fb1
+[I 00:52:55.534 NotebookApp] Kernel shutdown: 45a27fc0-c554-480c-b755-f37c1c9235a9
+[I 00:53:29.630 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 00:55:29.625 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 00:57:29.623 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 00:59:29.627 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:00:13.414 NotebookApp] Kernel interrupted: 32dec4cc-ccde-4add-b1dc-53e08b86a2e9
+[I 01:01:29.620 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:03:29.627 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:05:29.632 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:07:29.633 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:09:29.630 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:11:29.638 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:13:29.646 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:15:29.648 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:17:29.653 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:19:30.285 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:21:30.289 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:23:30.285 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:25:30.539 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:27:30.616 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:29:30.297 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:31:29.663 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:33:29.651 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:35:30.308 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:38:06.473 NotebookApp] Kernel restarted: 32dec4cc-ccde-4add-b1dc-53e08b86a2e9
+[I 01:39:50.663 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:41:51.871 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:43:52.005 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:45:51.478 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:47:51.307 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:49:51.831 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:51:51.308 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:53:51.803 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:55:51.312 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:57:51.310 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 01:59:50.662 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 02:01:50.660 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 02:03:51.802 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 02:05:51.682 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 02:07:51.567 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 02:09:51.749 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 02:11:50.685 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 02:13:50.683 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 02:15:51.619 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 02:17:52.248 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 02:19:51.349 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 02:21:35.787 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 02:22:41.622 NotebookApp] Kernel started: 7ffa20d4-ca04-47e7-b603-d55ed4817aa6, name: python3
+[I 02:24:41.761 NotebookApp] Saving file at /analysis_1/2-3-1_misp_and_ret_for_company.ipynb
+[I 02:26:42.447 NotebookApp] Saving file at /analysis_1/2-3-1_misp_and_ret_for_company.ipynb
+[I 02:27:35.157 NotebookApp] Starting buffering for 32dec4cc-ccde-4add-b1dc-53e08b86a2e9:b23ce40b94384870b492bd3bef488dbb
+[I 02:27:38.235 NotebookApp] Starting buffering for 7ffa20d4-ca04-47e7-b603-d55ed4817aa6:06c5ab4aa23746b5a13173800b312afc
+[I 02:27:42.658 NotebookApp] Kernel shutdown: 7ffa20d4-ca04-47e7-b603-d55ed4817aa6
+[I 02:27:46.274 NotebookApp] Kernel shutdown: 32dec4cc-ccde-4add-b1dc-53e08b86a2e9
+[I 02:51:25.693 NotebookApp] Kernel started: 2c489f63-ee3d-46e6-93e5-1409e14f4d46, name: python3
+[I 02:54:01.344 NotebookApp] Starting buffering for 2c489f63-ee3d-46e6-93e5-1409e14f4d46:f44f1737ddf141db8306abb0f01fb2b1
+[W 02:54:12.065 NotebookApp] Notebook pull_comp_crsp_data.ipynb is not trusted
+[I 02:54:12.352 NotebookApp] Kernel started: f4e0d131-a4ed-4287-a43f-a6c81cf32164, name: python3
+[I 02:54:15.447 NotebookApp] Starting buffering for f4e0d131-a4ed-4287-a43f-a6c81cf32164:e056c3c63fc5493781fdc031e610eaeb
+[I 13:53:17.101 NotebookApp] Creating new notebook in /analysis_1
+[I 13:53:17.695 NotebookApp] Kernel started: a307ea6b-bef4-4f63-813b-75cb039c83be, name: python3
+[I 13:53:24.877 NotebookApp] Kernel started: 0483bd1d-8a33-4300-a0b8-ffaa8c1a0ba4, name: python3
+[I 13:53:58.200 NotebookApp] Kernel started: 337d3580-f5ed-4ce6-9ce2-50ed5cca6555, name: python3
+[I 13:54:05.047 NotebookApp] Starting buffering for 337d3580-f5ed-4ce6-9ce2-50ed5cca6555:6a814d665e464fde92dc5b27fe43c2b9
+[I 13:55:17.652 NotebookApp] Saving file at /analysis_1/Untitled.ipynb
+[I 13:55:35.219 NotebookApp] Kernel started: ef033275-a76d-480e-ae62-4ae776409f5f, name: python3
+[I 13:55:41.270 NotebookApp] Starting buffering for ef033275-a76d-480e-ae62-4ae776409f5f:7efa4d9248494f24b713ff1630496840
+[I 13:57:17.657 NotebookApp] Saving file at /analysis_1/Untitled.ipynb
+[I 13:59:17.640 NotebookApp] Saving file at /analysis_1/Untitled.ipynb
+[I 13:59:42.888 NotebookApp] Kernel started: 75b28e68-8f5a-4f86-bbe9-5455967cf98c, name: python3
+[I 14:01:42.306 NotebookApp] Kernel started: f6c47ca8-3b2d-40d4-a3e8-d33abf2c69f1, name: python3
+[I 14:01:43.703 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:02:08.800 NotebookApp] Starting buffering for ef033275-a76d-480e-ae62-4ae776409f5f:5713d10097204c1f965dde5e3a818a3b
+[I 14:02:09.013 NotebookApp] Kernel restarted: ef033275-a76d-480e-ae62-4ae776409f5f
+[I 14:02:09.022 NotebookApp] Restoring connection for ef033275-a76d-480e-ae62-4ae776409f5f:5713d10097204c1f965dde5e3a818a3b
+[I 14:02:09.022 NotebookApp] Replaying 3 buffered messages
+[I 14:02:19.442 NotebookApp] Saving file at /valuation/PLS_val_and_misp_rolling.ipynb
+[I 14:02:22.169 NotebookApp] Saving file at /valuation/PLS_val_and_misp_rolling.ipynb
+[I 14:02:22.219 NotebookApp] Saving file at /valuation/PLS_val_and_misp_rolling.ipynb
+[I 14:02:23.187 NotebookApp] Starting buffering for f6c47ca8-3b2d-40d4-a3e8-d33abf2c69f1:05195a02ad534d5db76c107082287501
+[I 14:02:35.278 NotebookApp] Starting buffering for 75b28e68-8f5a-4f86-bbe9-5455967cf98c:aeee841412f44ba7b315518dd18a46a3
+[I 14:02:35.593 NotebookApp] Kernel restarted: 75b28e68-8f5a-4f86-bbe9-5455967cf98c
+[I 14:02:35.603 NotebookApp] Restoring connection for 75b28e68-8f5a-4f86-bbe9-5455967cf98c:aeee841412f44ba7b315518dd18a46a3
+[I 14:02:35.603 NotebookApp] Replaying 3 buffered messages
+[I 14:03:26.030 NotebookApp] Saving file at /valuation/hist_val_and_misp.ipynb
+[I 14:03:43.977 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:05:24.858 NotebookApp] Saving file at /valuation/hist_val_and_misp.ipynb
+[I 14:05:43.696 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:07:43.684 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:09:43.690 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:11:43.690 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:13:25.687 NotebookApp] Saving file at /valuation/hist_val_and_misp.ipynb
+[I 14:13:43.678 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:15:43.675 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:17:43.672 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:19:43.668 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:21:43.676 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:23:43.665 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:25:43.668 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:27:43.658 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:29:43.658 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:31:43.655 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:33:17.612 NotebookApp] Saving file at /analysis_1/Untitled.ipynb
+[I 14:33:43.651 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:35:17.608 NotebookApp] Saving file at /analysis_1/Untitled.ipynb
+[I 14:35:43.650 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:37:43.640 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:39:42.841 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:41:42.831 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:43:17.586 NotebookApp] Saving file at /analysis_1/Untitled.ipynb
+[I 14:43:43.631 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:45:17.644 NotebookApp] Saving file at /analysis_1/Untitled.ipynb
+[I 14:45:24.803 NotebookApp] Saving file at /valuation/hist_val_and_misp.ipynb
+[I 14:45:43.635 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:47:25.636 NotebookApp] Saving file at /valuation/hist_val_and_misp.ipynb
+[I 14:47:43.629 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:49:24.785 NotebookApp] Saving file at /valuation/hist_val_and_misp.ipynb
+[I 14:49:43.631 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:51:24.789 NotebookApp] Saving file at /valuation/hist_val_and_misp.ipynb
+[I 14:51:43.622 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:53:43.622 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:55:43.621 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:57:24.784 NotebookApp] Saving file at /valuation/hist_val_and_misp.ipynb
+[I 14:57:43.619 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 14:59:43.622 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:01:43.610 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:03:43.609 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:05:43.604 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:07:43.845 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:09:43.608 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:11:43.694 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios.ipynb
+[I 15:11:44.261 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:11:44.865 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios.ipynb
+[I 15:11:45.584 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios.ipynb
+[I 15:11:46.188 NotebookApp] Starting buffering for 337d3580-f5ed-4ce6-9ce2-50ed5cca6555:20e1c9c2700e45e5be179b9c1f2c949a
+[I 15:13:43.003 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:15:43.870 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:17:43.781 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:19:43.781 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:21:43.891 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:23:43.786 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:25:43.784 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:27:42.985 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:29:42.978 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:31:42.980 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:33:44.454 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:35:43.787 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:37:43.785 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:39:43.811 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:41:43.813 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:43:43.820 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:45:43.815 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:47:43.815 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:49:44.098 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:51:43.815 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:53:43.817 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:55:43.812 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:57:43.814 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 15:59:43.816 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:01:43.822 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:03:43.821 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:05:43.814 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:07:43.818 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:09:43.818 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:11:43.821 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:13:43.822 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:15:43.858 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:17:43.825 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:19:43.824 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:21:43.826 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:23:43.818 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:25:43.817 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:27:43.848 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:29:43.865 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:31:43.867 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:33:43.863 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:35:43.869 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:36:39.330 NotebookApp] Kernel started: 2f528ce3-8911-470a-8dcf-e08ba6a28b37, name: python3
+[I 16:36:50.609 NotebookApp] Starting buffering for 2f528ce3-8911-470a-8dcf-e08ba6a28b37:773bec85e9f64d48898a056a6f48a2fa
+[I 16:37:43.887 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:38:25.905 NotebookApp] Starting buffering for 2f528ce3-8911-470a-8dcf-e08ba6a28b37:a16ac48e5d39479e9a39383828d734c9
+[I 16:39:18.612 NotebookApp] Copying analysis_1/2-3_FF_portfolios.ipynb to /analysis_1
+[I 16:39:23.776 NotebookApp] Kernel started: e621810b-484b-496b-9b94-5c7d25b98dac, name: python3
+[I 16:39:43.888 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:39:46.144 NotebookApp] Starting buffering for 2c489f63-ee3d-46e6-93e5-1409e14f4d46:4dcc2fbe04e74d0d9d757c6fbd65c858
+[I 16:39:55.152 NotebookApp] Starting buffering for ef033275-a76d-480e-ae62-4ae776409f5f:5713d10097204c1f965dde5e3a818a3b
+[I 16:39:55.159 NotebookApp] Kernel shutdown: ef033275-a76d-480e-ae62-4ae776409f5f
+[I 16:41:23.795 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios-Copy1.ipynb
+[I 16:41:43.088 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:43:43.865 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:45:00.946 NotebookApp] Kernel interrupted: e621810b-484b-496b-9b94-5c7d25b98dac
+[I 16:45:23.950 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios-Copy1.ipynb
+[I 16:45:43.870 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:45:54.265 NotebookApp] Kernel started: 7cd88949-4006-42bf-845b-0716d73ec742, name: python3
+[I 16:46:04.276 NotebookApp] Starting buffering for 7cd88949-4006-42bf-845b-0716d73ec742:385f38a4d8ae4410b4079487eb949657
+[I 16:46:04.699 NotebookApp] Kernel restarted: 7cd88949-4006-42bf-845b-0716d73ec742
+[I 16:46:04.718 NotebookApp] Restoring connection for 7cd88949-4006-42bf-845b-0716d73ec742:385f38a4d8ae4410b4079487eb949657
+[I 16:46:04.718 NotebookApp] Replaying 3 buffered messages
+[I 16:46:12.375 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios-PLS.ipynb
+[I 16:46:13.135 NotebookApp] Starting buffering for e621810b-484b-496b-9b94-5c7d25b98dac:67ec57b92a3c429582003eaf0f3cba39
+[I 16:46:18.226 NotebookApp] Kernel shutdown: e621810b-484b-496b-9b94-5c7d25b98dac
+[I 16:46:19.969 NotebookApp] Kernel shutdown: 337d3580-f5ed-4ce6-9ce2-50ed5cca6555
+[I 16:46:20.487 NotebookApp] Kernel shutdown: 0483bd1d-8a33-4300-a0b8-ffaa8c1a0ba4
+[W 16:46:21.027 NotebookApp] 404 DELETE /api/sessions/5ae0426c-555f-4cea-9baf-74b682d13935 (::1): Session not found: session_id='5ae0426c-555f-4cea-9baf-74b682d13935'
+[W 16:46:21.028 NotebookApp] Session not found: session_id='5ae0426c-555f-4cea-9baf-74b682d13935'
+[W 16:46:21.028 NotebookApp] 404 DELETE /api/sessions/5ae0426c-555f-4cea-9baf-74b682d13935 (::1) 2.25ms referer=http://localhost:8888/notebooks/analysis_1/2-3-1_misp_and_ret_for_company.ipynb
+[I 16:47:43.891 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:47:54.386 NotebookApp] Saving file at /analysis_1/2-3_horizon_effects.ipynb
+[I 16:49:11.805 NotebookApp] Kernel interrupted: 7cd88949-4006-42bf-845b-0716d73ec742
+[I 16:49:14.458 NotebookApp] Starting buffering for 7cd88949-4006-42bf-845b-0716d73ec742:385f38a4d8ae4410b4079487eb949657
+[I 16:49:17.209 NotebookApp] Kernel shutdown: 7cd88949-4006-42bf-845b-0716d73ec742
+[I 16:49:43.890 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:51:43.868 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:53:43.062 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:56:55.256 NotebookApp] Kernel started: 579b3c13-4d8e-4846-8290-5b903f67db1d, name: python3
+[I 16:57:43.872 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 16:57:47.884 NotebookApp] Kernel interrupted: 579b3c13-4d8e-4846-8290-5b903f67db1d
+[I 16:58:55.880 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 16:59:17.826 NotebookApp] Saving file at /analysis_1/Untitled.ipynb
+[I 16:59:50.336 NotebookApp] Kernel started: 532fd063-cff2-4b3f-8e3f-52ee9d109534, name: python3
+[I 16:59:54.952 NotebookApp] Starting buffering for 532fd063-cff2-4b3f-8e3f-52ee9d109534:0e64a9193acb46f09552d88556b22b90
+[I 16:59:57.768 NotebookApp] Kernel started: 7ab7bc85-15df-4a21-903b-a385186829a8, name: python3
+[I 17:00:55.892 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 17:01:17.900 NotebookApp] Saving file at /analysis_1/Untitled.ipynb
+[I 17:01:42.695 NotebookApp] Starting buffering for 7ab7bc85-15df-4a21-903b-a385186829a8:0989e916a6284a018b86259a2e698fb3
+[I 17:01:42.700 NotebookApp] Kernel shutdown: 7ab7bc85-15df-4a21-903b-a385186829a8
+[I 17:01:43.898 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:01:57.982 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios.ipynb
+[I 17:02:26.950 NotebookApp] Saving file at /analysis_1/Untitled.ipynb
+[I 17:02:27.980 NotebookApp] Saving file at /analysis_1/Untitled.ipynb
+[I 17:02:28.056 NotebookApp] Saving file at /analysis_1/Untitled.ipynb
+[I 17:02:34.636 NotebookApp] Starting buffering for a307ea6b-bef4-4f63-813b-75cb039c83be:01e2cab10150499d92c8e66c5d616354
+[I 17:02:37.954 NotebookApp] Kernel shutdown: a307ea6b-bef4-4f63-813b-75cb039c83be
+[I 17:02:41.128 NotebookApp] Kernel shutdown: 2f528ce3-8911-470a-8dcf-e08ba6a28b37
+[I 17:02:55.279 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[E 17:03:37.920 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 83, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/tornado/gen.py", line 735, in run
+        value = future.result()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 309, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 387, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 7ab7bc85-15df-4a21-903b-a385186829a8)
+[E 17:03:37.924 NotebookApp] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "0",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|12b66cf8|4ea07a8d32688d79af8d695a5147781c|1602839333",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36",
+      "Origin": "http://localhost:8888",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Dest": "empty",
+      "Referer": "http://localhost:8888/notebooks/analysis_1/2-3_FF_portfolios.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "username-localhost-8888=\"2|1:0|10:1602260324|23:username-localhost-8888|44:ZTA3MWM3OTdkODgwNDBlOGEyOGRmMzMyOGU3NDVmZTM=|035d0e4ce330cefe00d114c8633cae5c0422213d7ab716cb3f6a54ddbe691d8f\"; _xsrf=2|12b66cf8|4ea07a8d32688d79af8d695a5147781c|1602839333"
+    }
+[E 17:03:37.924 NotebookApp] 500 POST /api/kernels/7ab7bc85-15df-4a21-903b-a385186829a8/restart (::1) 4.60ms referer=http://localhost:8888/notebooks/analysis_1/2-3_FF_portfolios.ipynb
+[W 17:03:37.931 NotebookApp] 404 DELETE /api/sessions/ac327f43-ca9f-44b6-a0a6-00c6990528dc (::1): Session not found: session_id='ac327f43-ca9f-44b6-a0a6-00c6990528dc'
+[W 17:03:37.931 NotebookApp] Session not found: session_id='ac327f43-ca9f-44b6-a0a6-00c6990528dc'
+[W 17:03:37.931 NotebookApp] 404 DELETE /api/sessions/ac327f43-ca9f-44b6-a0a6-00c6990528dc (::1) 0.93ms referer=http://localhost:8888/notebooks/analysis_1/2-3_FF_portfolios.ipynb
+[I 17:03:37.951 NotebookApp] Kernel started: 15302819-b254-4cfc-85e6-6f89da45d351, name: python3
+[I 17:03:43.094 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:04:55.893 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 17:05:43.903 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:06:55.901 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 17:07:43.914 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:07:57.908 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios.ipynb
+[I 17:08:55.905 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 17:09:57.870 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios.ipynb
+[I 17:10:25.262 NotebookApp] Kernel interrupted: 15302819-b254-4cfc-85e6-6f89da45d351
+[I 17:10:26.376 NotebookApp] Saving file at /analysis_1/2-3_FF_portfolios.ipynb
+[I 17:10:27.266 NotebookApp] Starting buffering for 15302819-b254-4cfc-85e6-6f89da45d351:0989e916a6284a018b86259a2e698fb3
+[I 17:10:55.905 NotebookApp] Saving file at /analysis_1/2-5-2_gkx_factors.ipynb
+[I 17:39:36.447 NotebookApp] Kernel interrupted: 75b28e68-8f5a-4f86-bbe9-5455967cf98c
+[I 17:39:38.164 NotebookApp] Kernel interrupted: 579b3c13-4d8e-4846-8290-5b903f67db1d
+[I 17:39:40.335 NotebookApp] Starting buffering for 579b3c13-4d8e-4846-8290-5b903f67db1d:8f3e872894cd470984cef51c748cc61b
+[I 17:39:40.336 NotebookApp] Starting buffering for 75b28e68-8f5a-4f86-bbe9-5455967cf98c:aeee841412f44ba7b315518dd18a46a3
+[I 22:37:17.965 NotebookApp] Kernel started: c4c3f019-c75a-4921-800e-1f2449dadaa2, name: python3
+[W 22:37:17.977 NotebookApp] 404 GET /static/plotly.js?v=20201024152451 (::1) 1.56ms referer=http://localhost:8888/notebooks/analysis_1/2-4_ret_decomp.ipynb
+[I 22:44:57.486 NotebookApp] Kernel started: 6f464f33-ce38-4f3d-9a53-8c46f8266acb, name: python3
+[I 22:45:44.309 NotebookApp] Starting buffering for 15302819-b254-4cfc-85e6-6f89da45d351:03ad64e527ca456a8975a01361bf6fed
+[I 22:45:47.597 NotebookApp] Kernel started: 1f22b151-4212-4081-a12c-fac3125118dd, name: python3
+[I 22:46:57.722 NotebookApp] Saving file at /hist/s7_mean_reversion_misp.ipynb
+[I 22:48:35.402 NotebookApp] Saving file at /hist/s7_mean_reversion_misp.ipynb
+[I 22:48:36.422 NotebookApp] Starting buffering for 6f464f33-ce38-4f3d-9a53-8c46f8266acb:1c5b4105fabd49638fd795a7d79969ea
+[I 22:48:37.398 NotebookApp] Starting buffering for 1f22b151-4212-4081-a12c-fac3125118dd:1447431f48fb499d810a045aa5850248
+[I 22:59:16.900 NotebookApp] Starting buffering for c4c3f019-c75a-4921-800e-1f2449dadaa2:aae7e9be8dcc4784a4db868bd9448fe4
+[I 22:59:22.905 NotebookApp] Kernel shutdown: 532fd063-cff2-4b3f-8e3f-52ee9d109534
+[I 22:59:23.118 NotebookApp] Kernel shutdown: 15302819-b254-4cfc-85e6-6f89da45d351
+[I 22:59:24.356 NotebookApp] Kernel shutdown: 1f22b151-4212-4081-a12c-fac3125118dd
+[I 22:59:24.561 NotebookApp] Kernel shutdown: c4c3f019-c75a-4921-800e-1f2449dadaa2
+[I 22:59:24.771 NotebookApp] Kernel shutdown: 579b3c13-4d8e-4846-8290-5b903f67db1d
+[I 22:59:27.014 NotebookApp] Kernel started: d7e1b345-d188-451b-b559-569052bbe058, name: python3
+[I 23:03:27.013 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 23:05:06.364 NotebookApp] Kernel interrupted: d7e1b345-d188-451b-b559-569052bbe058
+[I 23:05:27.007 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 23:07:27.014 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 23:09:27.008 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 23:10:51.952 NotebookApp] Kernel interrupted: d7e1b345-d188-451b-b559-569052bbe058
+[I 23:11:27.017 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 23:13:27.024 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 23:15:27.062 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 23:25:48.587 NotebookApp] Saving file at /analysis_1/2-2-2_other_syy_factors_misp.ipynb
+[I 23:25:49.485 NotebookApp] Starting buffering for d7e1b345-d188-451b-b559-569052bbe058:b398d9c07f1d49698f50e03e5a607960
+[I 23:25:56.938 NotebookApp] 302 POST /login?next=%2F (::1) 1.17ms
+[I 23:25:56.945 NotebookApp] 302 GET / (::1) 0.40ms
+[I 23:25:58.315 NotebookApp] Shutting down on /api/shutdown request.
+[I 23:25:58.317 NotebookApp] Shutting down 8 kernels
+[I 23:26:00.068 NotebookApp] Kernel shutdown: a78e5d8b-a066-4739-811c-a7e863539b59
+[I 23:26:00.069 NotebookApp] Kernel shutdown: 167dc22d-0a2a-44e3-860e-9495c2000407
+[I 23:26:00.070 NotebookApp] Kernel shutdown: 2c489f63-ee3d-46e6-93e5-1409e14f4d46
+[I 23:26:00.071 NotebookApp] Kernel shutdown: f4e0d131-a4ed-4287-a43f-a6c81cf32164
+[I 23:26:01.622 NotebookApp] Kernel shutdown: 75b28e68-8f5a-4f86-bbe9-5455967cf98c
+[I 23:26:01.625 NotebookApp] Kernel shutdown: f6c47ca8-3b2d-40d4-a3e8-d33abf2c69f1
+[I 23:26:01.626 NotebookApp] Kernel shutdown: 6f464f33-ce38-4f3d-9a53-8c46f8266acb
+[I 23:26:01.627 NotebookApp] Kernel shutdown: d7e1b345-d188-451b-b559-569052bbe058
+[I 23:26:01.628 NotebookApp] Shutting down 0 terminals
+[I 23:26:01.635 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[E 23:26:01.635 NotebookApp] Exception in callback <bound method KernelRestarter.poll of <jupyter_client.ioloop.restarter.IOLoopKernelRestarter object at 0x7fe79854f690>>
+    Traceback (most recent call last):
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+        return self.callback()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/restarter.py", line 113, in poll
+        self.kernel_manager.restart_kernel(now=True, newports=newports)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 442, in restart_kernel
+        self.shutdown_kernel(now=now, restart=True)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 383, in shutdown_kernel
+        self._kill_kernel()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 487, in _kill_kernel
+        raise RuntimeError("Cannot kill kernel. No kernel is running!")
+    RuntimeError: Cannot kill kernel. No kernel is running!
+[I 23:26:01.638 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[E 23:26:01.638 NotebookApp] Exception in callback <bound method KernelRestarter.poll of <jupyter_client.ioloop.restarter.IOLoopKernelRestarter object at 0x7fe7985774d0>>
+    Traceback (most recent call last):
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+        return self.callback()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/restarter.py", line 113, in poll
+        self.kernel_manager.restart_kernel(now=True, newports=newports)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 442, in restart_kernel
+        self.shutdown_kernel(now=now, restart=True)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 383, in shutdown_kernel
+        self._kill_kernel()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 487, in _kill_kernel
+        raise RuntimeError("Cannot kill kernel. No kernel is running!")
+    RuntimeError: Cannot kill kernel. No kernel is running!
+[I 23:26:01.638 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[E 23:26:01.638 NotebookApp] Exception in callback <bound method KernelRestarter.poll of <jupyter_client.ioloop.restarter.IOLoopKernelRestarter object at 0x7fe770398850>>
+    Traceback (most recent call last):
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+        return self.callback()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/restarter.py", line 113, in poll
+        self.kernel_manager.restart_kernel(now=True, newports=newports)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 442, in restart_kernel
+        self.shutdown_kernel(now=now, restart=True)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 383, in shutdown_kernel
+        self._kill_kernel()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 487, in _kill_kernel
+        raise RuntimeError("Cannot kill kernel. No kernel is running!")
+    RuntimeError: Cannot kill kernel. No kernel is running!
+[I 23:26:01.638 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[E 23:26:01.639 NotebookApp] Exception in callback <bound method KernelRestarter.poll of <jupyter_client.ioloop.restarter.IOLoopKernelRestarter object at 0x7fe7b8823590>>
+    Traceback (most recent call last):
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+        return self.callback()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/restarter.py", line 113, in poll
+        self.kernel_manager.restart_kernel(now=True, newports=newports)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 442, in restart_kernel
+        self.shutdown_kernel(now=now, restart=True)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 383, in shutdown_kernel
+        self._kill_kernel()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 487, in _kill_kernel
+        raise RuntimeError("Cannot kill kernel. No kernel is running!")
+    RuntimeError: Cannot kill kernel. No kernel is running!
+[I 23:26:01.639 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[E 23:26:01.639 NotebookApp] Exception in callback <bound method KernelRestarter.poll of <jupyter_client.ioloop.restarter.IOLoopKernelRestarter object at 0x7fe78841a2d0>>
+    Traceback (most recent call last):
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+        return self.callback()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/restarter.py", line 113, in poll
+        self.kernel_manager.restart_kernel(now=True, newports=newports)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 442, in restart_kernel
+        self.shutdown_kernel(now=now, restart=True)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 383, in shutdown_kernel
+        self._kill_kernel()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 487, in _kill_kernel
+        raise RuntimeError("Cannot kill kernel. No kernel is running!")
+    RuntimeError: Cannot kill kernel. No kernel is running!
+[I 23:26:01.639 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[E 23:26:01.639 NotebookApp] Exception in callback <bound method KernelRestarter.poll of <jupyter_client.ioloop.restarter.IOLoopKernelRestarter object at 0x7fe7b87e3e90>>
+    Traceback (most recent call last):
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+        return self.callback()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/restarter.py", line 113, in poll
+        self.kernel_manager.restart_kernel(now=True, newports=newports)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 442, in restart_kernel
+        self.shutdown_kernel(now=now, restart=True)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 383, in shutdown_kernel
+        self._kill_kernel()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 487, in _kill_kernel
+        raise RuntimeError("Cannot kill kernel. No kernel is running!")
+    RuntimeError: Cannot kill kernel. No kernel is running!
+[I 23:26:01.639 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[E 23:26:01.639 NotebookApp] Exception in callback <bound method KernelRestarter.poll of <jupyter_client.ioloop.restarter.IOLoopKernelRestarter object at 0x7fe7b8823d10>>
+    Traceback (most recent call last):
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+        return self.callback()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/restarter.py", line 113, in poll
+        self.kernel_manager.restart_kernel(now=True, newports=newports)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 442, in restart_kernel
+        self.shutdown_kernel(now=now, restart=True)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 383, in shutdown_kernel
+        self._kill_kernel()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 487, in _kill_kernel
+        raise RuntimeError("Cannot kill kernel. No kernel is running!")
+    RuntimeError: Cannot kill kernel. No kernel is running!
+[I 23:26:01.640 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[E 23:26:01.640 NotebookApp] Exception in callback <bound method KernelRestarter.poll of <jupyter_client.ioloop.restarter.IOLoopKernelRestarter object at 0x7fe7b893bad0>>
+    Traceback (most recent call last):
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+        return self.callback()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/restarter.py", line 113, in poll
+        self.kernel_manager.restart_kernel(now=True, newports=newports)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 442, in restart_kernel
+        self.shutdown_kernel(now=now, restart=True)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 383, in shutdown_kernel
+        self._kill_kernel()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 487, in _kill_kernel
+        raise RuntimeError("Cannot kill kernel. No kernel is running!")
+    RuntimeError: Cannot kill kernel. No kernel is running!
+[I 00:03:09.093 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 00:03:09.094 NotebookApp] Serving notebooks from local directory: /Users/mmw/Documents/GitHub/misp
+[I 00:03:09.094 NotebookApp] Jupyter Notebook 6.1.3 is running at:
+[I 00:03:09.094 NotebookApp] http://localhost:8888/
+[I 00:03:09.094 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 00:03:48.409 NotebookApp] Kernel started: cbe54f25-e9d1-4900-86e0-78328f0801b7, name: python3
+[I 00:26:31.915 NotebookApp] Starting buffering for cbe54f25-e9d1-4900-86e0-78328f0801b7:62b4f14bf7d24425b0100c9773614342
+[C 00:26:40.888 NotebookApp] received signal 15, stopping
+[I 00:26:40.889 NotebookApp] Shutting down 1 kernel
+[I 00:26:41.090 NotebookApp] Kernel shutdown: cbe54f25-e9d1-4900-86e0-78328f0801b7
+[I 00:26:41.091 NotebookApp] Shutting down 0 terminals
+[I 02:56:57.543 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 02:56:57.543 NotebookApp] Serving notebooks from local directory: /Users/mmw/Documents/GitHub/misp
+[I 02:56:57.543 NotebookApp] Jupyter Notebook 6.1.3 is running at:
+[I 02:56:57.543 NotebookApp] http://localhost:8888/
+[I 02:56:57.543 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 02:57:02.145 NotebookApp] Creating new notebook in 
+[I 02:57:02.954 NotebookApp] Kernel started: a6b664c1-c1d2-425c-8674-f3e9fe2c09fd, name: python3
+[I 02:59:02.859 NotebookApp] Saving file at /33101.ipynb
+[I 03:01:02.860 NotebookApp] Saving file at /33101.ipynb
+[I 03:03:02.845 NotebookApp] Saving file at /33101.ipynb
+[I 03:05:02.852 NotebookApp] Saving file at /33101.ipynb
+[I 03:07:02.841 NotebookApp] Saving file at /33101.ipynb
+[I 03:09:02.846 NotebookApp] Saving file at /33101.ipynb
+[I 03:11:02.848 NotebookApp] Saving file at /33101.ipynb
+[I 03:13:02.846 NotebookApp] Saving file at /33101.ipynb
+[I 03:15:02.847 NotebookApp] Saving file at /33101.ipynb
+[I 03:17:02.839 NotebookApp] Saving file at /33101.ipynb
+[I 03:19:02.851 NotebookApp] Saving file at /33101.ipynb
+[I 03:21:02.834 NotebookApp] Saving file at /33101.ipynb
+[I 04:05:20.995 NotebookApp] Starting buffering for a6b664c1-c1d2-425c-8674-f3e9fe2c09fd:f4542ffe6bdb4f26a6e728003c6a4ede
+[I 04:05:23.980 NotebookApp] Restoring connection for a6b664c1-c1d2-425c-8674-f3e9fe2c09fd:f4542ffe6bdb4f26a6e728003c6a4ede
+[I 04:14:15.750 NotebookApp] Starting buffering for a6b664c1-c1d2-425c-8674-f3e9fe2c09fd:f4542ffe6bdb4f26a6e728003c6a4ede
+[C 14:33:13.178 NotebookApp] received signal 15, stopping
+[I 14:33:13.179 NotebookApp] Shutting down 1 kernel
+[I 14:33:13.697 NotebookApp] Kernel shutdown: a6b664c1-c1d2-425c-8674-f3e9fe2c09fd
+[I 14:33:13.698 NotebookApp] Shutting down 0 terminals
+[I 16:15:25.471 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 16:15:25.471 NotebookApp] Serving notebooks from local directory: /Users/mmw/Documents/GitHub/misp
+[I 16:15:25.471 NotebookApp] Jupyter Notebook 6.1.3 is running at:
+[I 16:15:25.471 NotebookApp] http://localhost:8888/
+[I 16:15:25.471 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 16:15:42.509 NotebookApp] Creating new file in 
+[W 16:15:48.902 NotebookApp] delete /untitled.txt
+[I 16:15:52.991 NotebookApp] Creating new notebook in 
+[I 16:15:53.768 NotebookApp] Kernel started: 71b65b15-4c60-41e6-9194-7bf763c1681d, name: python3
+[I 16:16:05.589 NotebookApp] Kernel started: 4afe1194-8908-4e3f-aa6b-48edbfc54541, name: python3
+[I 16:16:17.988 NotebookApp] Starting buffering for 4afe1194-8908-4e3f-aa6b-48edbfc54541:e6a3bd6b581f4e519de85b0fa2e86251
+[I 16:16:27.525 NotebookApp] Kernel interrupted: 71b65b15-4c60-41e6-9194-7bf763c1681d
+[I 16:17:53.708 NotebookApp] Saving file at /data_tune.ipynb
+[I 16:19:53.699 NotebookApp] Saving file at /data_tune.ipynb
+[I 16:21:53.695 NotebookApp] Saving file at /data_tune.ipynb
+[I 16:23:53.699 NotebookApp] Saving file at /data_tune.ipynb
+[I 16:25:53.691 NotebookApp] Saving file at /data_tune.ipynb
+[I 16:27:53.694 NotebookApp] Saving file at /data_tune.ipynb
+[I 16:29:53.693 NotebookApp] Saving file at /data_tune.ipynb
+[I 16:31:53.684 NotebookApp] Saving file at /data_tune.ipynb
+[I 16:33:53.688 NotebookApp] Saving file at /data_tune.ipynb
+[I 16:34:54.450 NotebookApp] Kernel started: 41468fb0-e567-4aef-aeda-da35c82b4d12, name: python3
+[I 16:35:53.847 NotebookApp] Saving file at /data_tune.ipynb
+[I 16:36:54.842 NotebookApp] Saving file at /forecast/RF.ipynb
+[I 16:37:14.102 NotebookApp] Saving file at /forecast/data_preprocess.ipynb
+[I 16:37:53.699 NotebookApp] Saving file at /data_tune.ipynb
+[I 16:39:13.973 NotebookApp] Saving file at /forecast/data_preprocess.ipynb
+[I 16:41:13.975 NotebookApp] Saving file at /forecast/data_preprocess.ipynb
+[I 16:43:13.970 NotebookApp] Saving file at /forecast/data_preprocess.ipynb
+[I 16:45:13.969 NotebookApp] Saving file at /forecast/data_preprocess.ipynb
+[I 16:47:14.022 NotebookApp] Saving file at /forecast/data_preprocess.ipynb
+[I 16:49:13.980 NotebookApp] Saving file at /forecast/data_preprocess.ipynb
+[I 16:53:13.976 NotebookApp] Saving file at /forecast/data_preprocess.ipynb
+[I 16:55:53.700 NotebookApp] Saving file at /data_tune.ipynb
+[I 16:57:53.833 NotebookApp] Saving file at /data_tune.ipynb
+[I 16:59:13.977 NotebookApp] Saving file at /forecast/data_preprocess.ipynb
+[I 17:01:13.978 NotebookApp] Saving file at /forecast/data_preprocess.ipynb
+[W 17:01:50.668 NotebookApp] Notebook forecast/pls update.ipynb is not trusted
+[I 17:01:50.858 NotebookApp] Kernel started: 076e54ce-8d6b-45ef-9708-5f06d261dda1, name: python3
+[I 17:02:01.378 NotebookApp] Starting buffering for 076e54ce-8d6b-45ef-9708-5f06d261dda1:6370c89ecbe04e7a82d51eb310fae856
+[I 17:02:04.352 NotebookApp] Kernel started: e252db27-b289-437b-82c5-c55dda20cebc, name: python3
+[I 17:02:07.993 NotebookApp] Starting buffering for e252db27-b289-437b-82c5-c55dda20cebc:f6535578dbdd4d88a1411d826f429da4
+[I 17:02:15.572 NotebookApp] Starting buffering for e252db27-b289-437b-82c5-c55dda20cebc:ba6c3651424f4de983cfc13eafed520e
+[I 17:03:04.090 NotebookApp] Kernel started: 41ef2976-1801-4ae1-beee-14526e843b8c, name: python3
+[I 17:03:14.840 NotebookApp] Saving file at /forecast/data_preprocess.ipynb
+[I 17:05:04.115 NotebookApp] Saving file at /valuation/PLS_val_and_misp_rolling.ipynb
+[I 17:07:04.112 NotebookApp] Saving file at /valuation/PLS_val_and_misp_rolling.ipynb
+[I 17:07:09.997 NotebookApp] Kernel interrupted: 41ef2976-1801-4ae1-beee-14526e843b8c
+[I 17:08:08.089 NotebookApp] Kernel interrupted: 41ef2976-1801-4ae1-beee-14526e843b8c
+[I 17:08:10.220 NotebookApp] Saving file at /valuation/PLS_val_and_misp_rolling.ipynb
+[I 17:08:11.361 NotebookApp] Starting buffering for 41ef2976-1801-4ae1-beee-14526e843b8c:205da29792934a67afd2f6bd0aa2a028
+[I 17:08:14.161 NotebookApp] Kernel started: 7ae36626-5050-4fee-befb-124afad6b5e1, name: python3
+[I 17:08:16.325 NotebookApp] Kernel shutdown: 41ef2976-1801-4ae1-beee-14526e843b8c
+[I 17:10:14.188 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:11:36.499 NotebookApp] Starting buffering for 4afe1194-8908-4e3f-aa6b-48edbfc54541:b62ca04a7b9f4e0a8b84855f614a9902
+[I 17:11:38.692 NotebookApp] Starting buffering for 41468fb0-e567-4aef-aeda-da35c82b4d12:4188f0a3ebaa476f8f8a23822fec9789
+[I 17:11:39.869 NotebookApp] Starting buffering for 71b65b15-4c60-41e6-9194-7bf763c1681d:bdcd426d16e946338895ebd21ec57f2d
+[I 17:12:14.180 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:12:19.025 NotebookApp] Kernel interrupted: 7ae36626-5050-4fee-befb-124afad6b5e1
+[I 17:13:21.719 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:13:28.675 NotebookApp] Kernel shutdown: 71b65b15-4c60-41e6-9194-7bf763c1681d
+[I 17:13:31.124 NotebookApp] Kernel shutdown: 4afe1194-8908-4e3f-aa6b-48edbfc54541
+[I 17:13:34.196 NotebookApp] Kernel shutdown: 41468fb0-e567-4aef-aeda-da35c82b4d12
+[I 17:13:34.711 NotebookApp] Kernel shutdown: 076e54ce-8d6b-45ef-9708-5f06d261dda1
+[I 17:13:35.033 NotebookApp] Kernel shutdown: e252db27-b289-437b-82c5-c55dda20cebc
+[I 17:14:14.176 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:16:14.177 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:16:40.090 NotebookApp] Kernel interrupted: 7ae36626-5050-4fee-befb-124afad6b5e1
+[I 17:17:33.435 NotebookApp] Kernel started: f1317ebc-7074-4d0d-be98-ddcd9d6f0371, name: python3
+[I 17:18:14.180 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:18:21.187 NotebookApp] Kernel interrupted: 7ae36626-5050-4fee-befb-124afad6b5e1
+[I 17:19:10.815 NotebookApp] Kernel interrupted: 7ae36626-5050-4fee-befb-124afad6b5e1
+[I 17:20:14.194 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:21:48.432 NotebookApp] Kernel interrupted: 7ae36626-5050-4fee-befb-124afad6b5e1
+[I 17:22:14.191 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:22:24.682 NotebookApp] Kernel started: 7c973cc6-e3a5-45c5-ac1b-630d0646040a, name: python3
+[I 17:24:14.183 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:26:14.175 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:28:14.169 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:30:14.172 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:32:14.293 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:34:14.232 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:36:14.236 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:38:14.258 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:40:14.245 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:42:14.266 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:44:14.271 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:46:14.256 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:48:14.236 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:50:14.331 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:52:14.301 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:54:14.322 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:56:14.308 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 17:58:14.318 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 18:00:05.859 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 18:00:07.838 NotebookApp] Starting buffering for f1317ebc-7074-4d0d-be98-ddcd9d6f0371:f19cd7e20b304fe583621dbd7a2a5741
+[I 18:00:19.857 NotebookApp] Saving file at /forecast/RF.ipynb
+[I 18:00:21.790 NotebookApp] Starting buffering for 7c973cc6-e3a5-45c5-ac1b-630d0646040a:3799a139ddf144edb86f91ee14923407
+[I 18:00:32.234 NotebookApp] Creating new notebook in /valuation
+[I 18:00:32.749 NotebookApp] Kernel started: bf2a0d54-e2d4-470d-9d46-a05ed781e2f9, name: python3
+[I 18:02:32.706 NotebookApp] Saving file at /valuation/IBES_val_and_misp.ipynb
+[I 18:04:15.054 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 18:04:32.970 NotebookApp] Saving file at /valuation/IBES_val_and_misp.ipynb
+[I 18:05:08.036 NotebookApp] Saving file at /valuation/IBES_val_and_misp.ipynb
+[I 18:05:09.046 NotebookApp] Starting buffering for bf2a0d54-e2d4-470d-9d46-a05ed781e2f9:01b09d5880e94765b1039e5aa2aaa639
+[I 18:05:11.765 NotebookApp] Kernel shutdown: bf2a0d54-e2d4-470d-9d46-a05ed781e2f9
+[I 18:06:14.363 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 18:08:14.310 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 18:10:14.303 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 18:20:14.308 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 18:22:14.366 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 18:24:14.310 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 18:26:05.291 NotebookApp] Kernel interrupted: 7ae36626-5050-4fee-befb-124afad6b5e1
+[I 18:26:14.304 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 18:28:14.308 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 18:30:14.312 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 18:32:14.313 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 18:34:16.653 NotebookApp] Kernel interrupted: 7ae36626-5050-4fee-befb-124afad6b5e1
+[I 18:34:23.055 NotebookApp] Saving file at /valuation/RF_val_and_misp.ipynb
+[I 18:34:24.225 NotebookApp] Starting buffering for 7ae36626-5050-4fee-befb-124afad6b5e1:6ad8d4eb9016445e80f67fa5fde1abb7
+[I 18:34:29.706 NotebookApp] 302 POST /login?next=%2F (::1) 0.90ms
+[I 18:34:29.713 NotebookApp] 302 GET / (::1) 0.37ms
+[I 18:34:30.807 NotebookApp] Shutting down on /api/shutdown request.
+[I 18:34:30.808 NotebookApp] Shutting down 3 kernels
+[I 18:34:34.266 NotebookApp] Kernel shutdown: 7ae36626-5050-4fee-befb-124afad6b5e1
+[I 18:34:34.267 NotebookApp] Kernel shutdown: f1317ebc-7074-4d0d-be98-ddcd9d6f0371
+[I 18:34:34.267 NotebookApp] Kernel shutdown: 7c973cc6-e3a5-45c5-ac1b-630d0646040a
+[I 18:34:34.267 NotebookApp] Shutting down 0 terminals
+[I 18:34:34.270 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[E 18:34:34.270 NotebookApp] Exception in callback <bound method KernelRestarter.poll of <jupyter_client.ioloop.restarter.IOLoopKernelRestarter object at 0x7ffe50081190>>
+    Traceback (most recent call last):
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+        return self.callback()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/restarter.py", line 113, in poll
+        self.kernel_manager.restart_kernel(now=True, newports=newports)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 442, in restart_kernel
+        self.shutdown_kernel(now=now, restart=True)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 383, in shutdown_kernel
+        self._kill_kernel()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 487, in _kill_kernel
+        raise RuntimeError("Cannot kill kernel. No kernel is running!")
+    RuntimeError: Cannot kill kernel. No kernel is running!
+[I 18:34:34.272 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[E 18:34:34.273 NotebookApp] Exception in callback <bound method KernelRestarter.poll of <jupyter_client.ioloop.restarter.IOLoopKernelRestarter object at 0x7ffe7075f650>>
+    Traceback (most recent call last):
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+        return self.callback()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/restarter.py", line 113, in poll
+        self.kernel_manager.restart_kernel(now=True, newports=newports)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 442, in restart_kernel
+        self.shutdown_kernel(now=now, restart=True)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 383, in shutdown_kernel
+        self._kill_kernel()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 487, in _kill_kernel
+        raise RuntimeError("Cannot kill kernel. No kernel is running!")
+    RuntimeError: Cannot kill kernel. No kernel is running!
+[I 18:34:34.273 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[E 18:34:34.273 NotebookApp] Exception in callback <bound method KernelRestarter.poll of <jupyter_client.ioloop.restarter.IOLoopKernelRestarter object at 0x7ffe80959590>>
+    Traceback (most recent call last):
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/tornado/ioloop.py", line 907, in _run
+        return self.callback()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/restarter.py", line 113, in poll
+        self.kernel_manager.restart_kernel(now=True, newports=newports)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 442, in restart_kernel
+        self.shutdown_kernel(now=now, restart=True)
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 383, in shutdown_kernel
+        self._kill_kernel()
+      File "/Users/mmw/Installations/venvs/mlval/lib/python3.7/site-packages/jupyter_client/manager.py", line 487, in _kill_kernel
+        raise RuntimeError("Cannot kill kernel. No kernel is running!")
+    RuntimeError: Cannot kill kernel. No kernel is running!
+[I 21:48:45.542 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 21:48:45.542 NotebookApp] Serving notebooks from local directory: /Users/mmw/Documents/GitHub/misp
+[I 21:48:45.542 NotebookApp] Jupyter Notebook 6.1.3 is running at:
+[I 21:48:45.542 NotebookApp] http://localhost:8888/
+[I 21:48:45.542 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 21:51:25.002 NotebookApp] Notebook annual/annual_data_clean.ipynb is not trusted
+[I 21:51:25.610 NotebookApp] Kernel started: 612ece11-ea5b-41ff-8456-ab9b347258c2, name: python3
+[W 21:51:26.415 NotebookApp] Notebook annual/annual_rf_reg.ipynb is not trusted
+[I 21:51:26.624 NotebookApp] Kernel started: 945c251b-cacc-429a-b757-f349c595e8ba, name: python3
+[I 21:53:25.607 NotebookApp] Saving file at /annual/annual_data_clean.ipynb
+[W 21:53:25.608 NotebookApp] Notebook annual/annual_data_clean.ipynb is not trusted
+[I 21:53:26.813 NotebookApp] Saving file at /annual/annual_rf_reg.ipynb
+[W 21:53:26.813 NotebookApp] Notebook annual/annual_rf_reg.ipynb is not trusted
+[I 23:15:31.763 NotebookApp] Starting buffering for 945c251b-cacc-429a-b757-f349c595e8ba:a50d860c74394d42afce69666a823b47
+[I 23:15:31.765 NotebookApp] Starting buffering for 612ece11-ea5b-41ff-8456-ab9b347258c2:c4c687fa05ef417080f9a55ff83a9510
+[I 23:15:33.320 NotebookApp] Restoring connection for 945c251b-cacc-429a-b757-f349c595e8ba:a50d860c74394d42afce69666a823b47
+[I 23:15:33.333 NotebookApp] Restoring connection for 612ece11-ea5b-41ff-8456-ab9b347258c2:c4c687fa05ef417080f9a55ff83a9510
+[I 00:38:33.773 NotebookApp] Kernel started: e4decb5d-569f-4ca9-b0d5-8664279e5438, name: python3
+[I 00:39:02.292 NotebookApp] Starting buffering for e4decb5d-569f-4ca9-b0d5-8664279e5438:19ff6aee8b884e51a43b02f46846e9b3
+[I 00:39:14.275 NotebookApp] Kernel started: 99364ad3-8c7d-49e5-a40c-053f52801766, name: python3
+[I 00:39:34.316 NotebookApp] Starting buffering for 99364ad3-8c7d-49e5-a40c-053f52801766:41be35a55d53463c877a34591d73069e
+[W 00:39:39.263 NotebookApp] Notebook pull_wrds_data.ipynb is not trusted
+[I 00:39:39.512 NotebookApp] Kernel started: 647d0683-968a-4d5a-8648-7d12f367dbee, name: python3
+[I 00:39:40.472 NotebookApp] Starting buffering for 647d0683-968a-4d5a-8648-7d12f367dbee:63348cb00e614804aa6e199982015a79
+[I 01:40:38.832 NotebookApp] Starting buffering for 945c251b-cacc-429a-b757-f349c595e8ba:a50d860c74394d42afce69666a823b47
+[I 01:40:38.833 NotebookApp] Starting buffering for 612ece11-ea5b-41ff-8456-ab9b347258c2:c4c687fa05ef417080f9a55ff83a9510
+[I 01:40:40.251 NotebookApp] Restoring connection for 945c251b-cacc-429a-b757-f349c595e8ba:a50d860c74394d42afce69666a823b47
+[I 01:40:40.264 NotebookApp] Restoring connection for 612ece11-ea5b-41ff-8456-ab9b347258c2:c4c687fa05ef417080f9a55ff83a9510
+[I 01:43:51.948 NotebookApp] Starting buffering for 612ece11-ea5b-41ff-8456-ab9b347258c2:c4c687fa05ef417080f9a55ff83a9510
+[I 01:43:51.949 NotebookApp] Starting buffering for 945c251b-cacc-429a-b757-f349c595e8ba:a50d860c74394d42afce69666a823b47
+[I 01:43:53.175 NotebookApp] Restoring connection for 612ece11-ea5b-41ff-8456-ab9b347258c2:c4c687fa05ef417080f9a55ff83a9510
+[I 01:43:53.198 NotebookApp] Restoring connection for 945c251b-cacc-429a-b757-f349c595e8ba:a50d860c74394d42afce69666a823b47
+[I 00:38:51.989 NotebookApp] Starting buffering for 945c251b-cacc-429a-b757-f349c595e8ba:a50d860c74394d42afce69666a823b47
+[I 00:38:51.990 NotebookApp] Starting buffering for 612ece11-ea5b-41ff-8456-ab9b347258c2:c4c687fa05ef417080f9a55ff83a9510
+[I 00:38:54.893 NotebookApp] Restoring connection for 945c251b-cacc-429a-b757-f349c595e8ba:a50d860c74394d42afce69666a823b47
+[I 00:38:54.911 NotebookApp] Restoring connection for 612ece11-ea5b-41ff-8456-ab9b347258c2:c4c687fa05ef417080f9a55ff83a9510
+[I 01:07:41.281 NotebookApp] Starting buffering for 945c251b-cacc-429a-b757-f349c595e8ba:a50d860c74394d42afce69666a823b47
+[I 01:07:41.281 NotebookApp] Starting buffering for 612ece11-ea5b-41ff-8456-ab9b347258c2:c4c687fa05ef417080f9a55ff83a9510
+[I 01:07:42.810 NotebookApp] Restoring connection for 945c251b-cacc-429a-b757-f349c595e8ba:a50d860c74394d42afce69666a823b47
+[I 01:07:42.826 NotebookApp] Restoring connection for 612ece11-ea5b-41ff-8456-ab9b347258c2:c4c687fa05ef417080f9a55ff83a9510
+[I 19:38:42.309 NotebookApp] Starting buffering for 612ece11-ea5b-41ff-8456-ab9b347258c2:c4c687fa05ef417080f9a55ff83a9510
+[I 19:38:42.311 NotebookApp] Starting buffering for 945c251b-cacc-429a-b757-f349c595e8ba:a50d860c74394d42afce69666a823b47
+[I 23:47:20.208 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 23:47:20.209 NotebookApp] Serving notebooks from local directory: /Users/mmw/Documents/GitHub/misp
+[I 23:47:20.209 NotebookApp] Jupyter Notebook 6.1.3 is running at:
+[I 23:47:20.209 NotebookApp] http://localhost:8888/
+[I 23:47:20.209 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 23:52:46.132 NotebookApp] Notebook annual/annual_data_clean.ipynb is not trusted
+[I 23:52:46.720 NotebookApp] Kernel started: 52d662b6-7847-4c9c-bf0b-f15d89528715, name: python3
+[W 00:08:16.429 NotebookApp] Notebook annual/annual_rf_reg.ipynb is not trusted
+[I 00:08:16.656 NotebookApp] Kernel started: 97ec7be7-91cc-4b26-b74c-efa61e3c3bbb, name: python3
+[I 00:08:47.397 NotebookApp] Saving file at /annual/annual_data_clean.ipynb
+[W 00:08:47.398 NotebookApp] Notebook annual/annual_data_clean.ipynb is not trusted
+[I 00:25:02.303 NotebookApp] Starting buffering for 97ec7be7-91cc-4b26-b74c-efa61e3c3bbb:054cc0ca963e4448939cd9e45360c8be
+[I 00:25:02.303 NotebookApp] Starting buffering for 52d662b6-7847-4c9c-bf0b-f15d89528715:0e8c647ae96f4e60816640a7a3a15bc9
+[I 00:25:03.326 NotebookApp] Restoring connection for 97ec7be7-91cc-4b26-b74c-efa61e3c3bbb:054cc0ca963e4448939cd9e45360c8be
+[I 00:25:03.402 NotebookApp] Restoring connection for 52d662b6-7847-4c9c-bf0b-f15d89528715:0e8c647ae96f4e60816640a7a3a15bc9
+[W 01:28:08.562 NotebookApp] Notebook annual/annual_rf_reg 1.ipynb is not trusted
+[I 01:28:08.857 NotebookApp] Kernel started: 396f3880-bc48-41f0-b05b-761585a46938, name: python3
+[I 01:30:10.297 NotebookApp] Saving file at /annual/annual_rf_reg 1.ipynb
+[W 01:30:10.298 NotebookApp] Notebook annual/annual_rf_reg 1.ipynb is not trusted
+[W 02:01:54.550 NotebookApp] Notebook annual/annual_rf_reg 2.ipynb is not trusted
+[I 02:01:54.868 NotebookApp] Kernel started: 65775b89-a427-4836-95cd-6f58ef87f079, name: python3
+[I 02:03:55.815 NotebookApp] Saving file at /annual/annual_rf_reg 2.ipynb
+[W 02:03:55.816 NotebookApp] Notebook annual/annual_rf_reg 2.ipynb is not trusted
+[I 02:22:15.743 NotebookApp] Creating new notebook in /annual
+[I 02:22:16.354 NotebookApp] Kernel started: efc3c509-f5af-474d-9325-f6ae230e4e66, name: python3
+[I 02:24:16.910 NotebookApp] Saving file at /annual/Untitled.ipynb
+[I 02:26:16.275 NotebookApp] Saving file at /annual/Untitled.ipynb
+[I 02:28:16.261 NotebookApp] Saving file at /annual/Untitled.ipynb
+[I 02:30:16.267 NotebookApp] Saving file at /annual/Untitled.ipynb
